@@ -1,0 +1,70 @@
+.service{
+    background: url('../../Images/food.png');
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.service_data{
+    /* border: 2px solid red; */
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sevice_info{
+    /* border: 3px solid green; */
+    text-align: center;
+    padding: 5px;
+    word-spacing: 5px;
+}
+.ser_heading{
+    font-family: 'inter';
+    font-weight: 300;
+}
+.ser_para{
+    font-family: 'Merriweather';
+    margin-top: 10px;
+}
+.ser{
+    display: flex;
+    /* border: 2px solid rgb(89, 0, 255); */
+    justify-content: space-around;
+    width: 100%;
+}
+.heading_ser{
+    text-align: center;padding: 10px;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blueviolet; */
+}
+.heading_ser h1{
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 45px;
+}
+.heading_ser h3{
+    margin-top: 20px;
+    font-family: 'inter';
+    font-weight: 300;
+    color: rgb(150, 110, 37);
+    width: 50%;
+}
+@media screen and (min-width:300px) and (max-width:900px){
+.service{
+    height: 100%;
+}
+.heading_ser h3{
+    width: 100%;
+}
+.ser{
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+}

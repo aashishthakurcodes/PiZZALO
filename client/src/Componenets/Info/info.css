@@ -1,0 +1,20 @@
+.info_cont{
+    height: auto;
+    background: #000;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 1px solid white;
+}
+.info_data{
+    display: flex;
+    gap: 15px;
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.info_title{
+    color: aliceblue;
+}

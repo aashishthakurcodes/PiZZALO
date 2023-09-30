@@ -1,0 +1,78 @@
+.parallaxo {
+  /* The image used */
+  background-image: url("../../Images/bg_2.jpg");
+  /* border: 5px solid red; */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* z-index: -1; */
+
+  /* background: rgba(0, 0, 0, 0.2); */
+}
+.more_cont {
+  border: 2px solid pink;
+  height: 100%;
+  display: flex;
+
+  /* width: 800px */
+}
+.more_cont img {
+  height: 100%;
+  width: 330px;
+}
+.main_data {
+  /* border: 3px solid blue; */
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  padding: 20px;
+}
+.info_container {
+  /* border: 2px solid green; */
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  width: 300px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.info_container:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid orange;
+}
+
+.brief {
+  font-size: 20px;
+  color: rgb(255, 254, 253);
+  font-weight: 600;
+  font-family: "inter";
+}
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .more_cont {
+    display: none;
+  }
+  .more_cont img {
+    width: 100%;
+    /* display: none; */
+    /* height: 180px; */
+  }
+  .main_data {
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 900px) {
+  .more_cont {
+    /* border: 5px solid blueviolet; */
+    flex-wrap: wrap;
+    display: none;
+  }
+}

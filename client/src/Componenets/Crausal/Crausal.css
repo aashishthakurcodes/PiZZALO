@@ -1,0 +1,152 @@
+.card_body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 510px;
+  }
+  .container {
+    max-width: 100%; /* Ensure the container does not exceed viewport width */
+    overflow: hidden; /* Hide any content that overflows */
+  }
+  
+  .card_data {
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 70%;  
+    animation: slideInLeft 1s ease-in-out;
+    transition: opacity 0.5s;
+   
+  }
+  .title{
+    font-family: 'Satisfy';
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .heading{
+    font-family: "Merriweather";
+    font-size: 24px;
+    /* color: #ffff; */
+  }
+  .desc{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .card_img {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    animation: slideInRight 1s ease-in-out;
+    transition: opacity 0.5s;
+  
+  }
+  .card_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    color: #ffff;
+  }
+  .btn{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+  }
+  .btn1{
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #ffff;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    font-family: "inter",
+    
+    
+  }
+  .btn1:hover{
+    background: orange;
+    color: black;
+    /* border: none; */
+  }
+  .btn2{
+    padding: 10px 30px;
+    background: orange;
+    border: 1px solid #ffff;
+    font-weight: bold;
+    color: #030303;
+    cursor: pointer;
+    font-family: "inter",
+    
+    
+  }
+  .btn2:hover{
+    background:transparent;
+    color: rgb(255, 255, 255);
+    /* border: none; */
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+ 
+  @media screen and (min-width:300px) and (max-width:600px) {
+    .card_body{
+      /* border: 3px solid greenyellow; */
+      height: 550px;
+      width: 100%;
+     
+    }
+    .card_data{
+      /* border: 3px solid pink; */
+      width: 100%;
+      flex-direction: column-reverse;
+      gap: 10px;
+    }
+    .card_img{
+      height: 250px;
+    }
+  }
