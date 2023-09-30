@@ -5,11 +5,11 @@ import { add } from "../../Store/CartSlice";
 import { useDispatch } from "react-redux";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Loading from "../Loader/Loading";
+// import Loading from "../Loader/Loading";
 
 const HomePage = () => {
   const [info, setInfo] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const dispatch =useDispatch();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const HomePage = () => {
           "http://localhost:8080/api/v1/getItems"
         );
         setInfo(response.data.items);
-        setLoading(false)
+        // setLoading(false)
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -47,11 +47,11 @@ const HomePage = () => {
       {/* {loading && <Loader/>} */}
       <ToastContainer/>
       <div  >
-      {loading && (
-        <div className="loading-container">
-          <Loading />
-        </div>
-      )}
+      // {loading && (
+      //   <div className="loading-container">
+      //     <Loading />
+      //   </div>
+      // )}
         
         <h1 className="card_heading">Hot Pizza Meals</h1>
         <p className="card_para">
