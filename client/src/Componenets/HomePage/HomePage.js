@@ -47,11 +47,7 @@ const HomePage = () => {
       {/* {loading && <Loader/>} */}
       <ToastContainer/>
       <div  >
-      {/* {loading && (
-        <div className="loading-container">
-          <Loading />
-        </div>
-      )} */}
+     
         
         <h1 className="card_heading">Hot Pizza Meals</h1>
         <p className="card_para">
