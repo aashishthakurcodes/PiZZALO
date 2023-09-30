@@ -10,8 +10,9 @@
     height: 510px;
   }
   .container {
-    max-width: 100%; /* Ensure the container does not exceed viewport width */
-    overflow: hidden; /* Hide any content that overflows */
+    width: 100%; /* Ensure the container does not exceed viewport width */
+    overflow: hidden;
+    border: 2cqmin solid red; /* Hide any content that overflows */
   }
   
   .card_data {
