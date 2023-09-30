@@ -1,5 +1,5 @@
 .card_body {
-    width: 100%;
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -10,9 +10,7 @@
     height: 510px;
   }
   .container {
-    width: 100%; /* Ensure the container does not exceed viewport width */
-    overflow: hidden;
-    border: 2cqmin solid red; /* Hide any content that overflows */
+   max-width: 100%; /* Ensure the container does not exceed viewport 
   }
   
   .card_data {
