@@ -1,5 +1,6 @@
 .card_body {
-    /* width: 100%; */
+    width: 100%;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
