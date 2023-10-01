@@ -126,7 +126,7 @@ const Collection = () => {
         _id:selectedProducts[index].prc
         
       };
-      console.log(itemWithImage,"Collection");
+      // console.log(itemWithImage,"Collection");
   
       dispatch(add(itemWithImage));
       toast.success("Item Add to Cart");

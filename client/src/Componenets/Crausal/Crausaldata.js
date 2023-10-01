@@ -51,7 +51,6 @@ const Crausaldata = () => {
       }
     ]
   };
-console.log(data);
   return (
     <div className="container" >
       <Slider {...settings}>

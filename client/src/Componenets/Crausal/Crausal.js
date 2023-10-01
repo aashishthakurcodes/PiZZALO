@@ -5,7 +5,7 @@ import Crausaldata from './Crausaldata'
 const Crausal = () => {
   return (
   
-   <div className="product" id="home">
+   <div id="home">
      <Crausaldata/>
     </div>
   
