@@ -3,8 +3,12 @@ import connectDb from "./Config/dbConnect.js";
 import menuRoutes from "./Routes/menuRoutes.js";
 import contactUs from "./Routes/contactUs.js";
 import cors from "cors";
+import dotenv from 'dotenv'
 import path, { dirname } from "path"; // Fixed import statements
 import { fileURLToPath } from "url";
+
+// config
+dotenv.config();
 const app = express();
 connectDb();
 app.use(express.json());
