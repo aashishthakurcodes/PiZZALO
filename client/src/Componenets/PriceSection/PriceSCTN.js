@@ -24,43 +24,46 @@ const PriceSCTN = () => {
 
   return (
     <div className="parallax" id="menu">
-      {loading && (
+      {loading ? (
         <div className="loading-container">
           <Loading />
         </div>
-      )}
-      <div className="card_text">
-        <h1 className="card_heading">OUR MENU PRICING</h1>
-        <p className="card_para">
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts.
-        </p>
-      </div>
-      <div className="prc_main">
-        <div className="cont_1">
-          {info.map((item) => (
-            <div className="cont_dt" key={item.id}>
-              <img
-                src={`http://localhost:8080/api/v1/get-photo/${item._id}`}
-                className="card-img-top"
-                alt={item.name}
-              />
-              <div>
-                <div className="price_cont">
-                  <span className="title_hm">{item.name}</span>
-                  <span className="sty" style={{ color: "orange" }}>
-                    ................................
-                  </span>
-                  <span className="prc">${item.price}</span>
+      ) : (
+        <>
+          <div className="card_text">
+            <h1 className="card_heading">OUR MENU PRICING</h1>
+            <p className="card_para">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div className="prc_main">
+            <div className="cont_1">
+              {info.map((item) => (
+                <div className="cont_dt" key={item.id}>
+                  <img
+                    src={`http://localhost:8080/api/v1/get-photo/${item._id}`}
+                    className="card-img-top"
+                    alt={item.name}
+                  />
+                  <div>
+                    <div className="price_cont">
+                      <span className="title_hm">{item.name}</span>
+                      <span className="sty" style={{ color: "orange" }}>
+                        ................................
+                      </span>
+                      <span className="prc">${item.price}</span>
+                    </div>
+                    <div className="prc_sctn">
+                      <span className="prc_01">{item.desc}</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="prc_sctn">
-                  <span className="prc_01">{item.desc}</span>
-                </div>
-              </div>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };
