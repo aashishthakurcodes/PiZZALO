@@ -9,13 +9,15 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 510px;
+
   }
+  
   .container {
    max-width: 100%;
    overflow: hidden;
-   /* border: 2px solid red; */
+   
   }
-  /*  */
+ 
   
   .card_data {
     text-align: center;
@@ -153,3 +155,7 @@
       height: 250px;
     }
   }
+.container{
+  max-width: fit-content;
+  /* border: 6px solid greenyellow; */
+}
