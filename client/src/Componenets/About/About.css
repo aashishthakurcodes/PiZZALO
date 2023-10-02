@@ -12,16 +12,18 @@
     background-size: cover;
   }
   .aboutus{
-    display: flex;
-    color: aliceblue;
-    justify-content:flex-start ;
-    /* align-items: center; */
-    /* border: 2px solid red; */
-    padding-top: 5px;
+   /* border: 2px solid red; */
+   display: flex;
+   flex-wrap: wrap;
     
   }
-  .aboutus img{
-    width: 700px;
+  .abtIMg{
+    /* border: 3px solid greenyellow; */
+    width: 60%;
+  }
+  .abtIMg img{
+    width: 100%;
+    height: 100%;
   }
   .aboutdata{
     /* border: 2px solid rgb(6, 85, 255); */
@@ -30,7 +32,7 @@
     padding: 40px;
      word-spacing: 5px;
      font-size: 20px;
-    
+    width: 40%;
      /* height: 100%; */
     
   }
@@ -51,7 +53,13 @@
       justify-content: center;
       align-items: center;
     }
-    .aboutus img{
+    .aboutdata{
+      width: 100%;
+    }
+    .abtIMg{
+      width: 100%;
+    }
+    .abtIMg img{
       width: 100%;
     }
     .aboutdata{padding: 12px;}
