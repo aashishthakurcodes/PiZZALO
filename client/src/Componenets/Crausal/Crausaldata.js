@@ -52,7 +52,7 @@ const Crausaldata = () => {
     ]
   };
   return (
-    <div className="container2" >
+    <div className="container" >
       <Slider {...settings}>
       {data.map((item, index) => (
           <div key={index}  style={{background:`url(${item.bg})`}}>
