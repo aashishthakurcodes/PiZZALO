@@ -155,10 +155,19 @@
       height: 250px;
     }
   }
-  @media screen and (min-width: 1536px){
-    .container {
-      max-width: 100%;
+ 
+  .demo1{
+    /* border: 3px solid green; */
+   max-width: 100%;
+    margin: auto  ;
+
   }
+  .demo2{
+    /* border: 2px solid red; */
   }
-  
-  
+  .demo3{
+    /* border: 4px solid blue; */
+    /* border-radius: 20px; */
+    max-width: 100%;
+    overflow: hidden;
+  }
