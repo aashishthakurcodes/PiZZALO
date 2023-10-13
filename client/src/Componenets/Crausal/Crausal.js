@@ -4,11 +4,9 @@ import Crausaldata from './Crausaldata'
 
 const Crausal = () => {
   return (
-  
-   <div id="home" className='container'>
-    
-     <Crausaldata/>
-    </div>
+  <div className="container">
+  <Crausaldata/>
+  </div>
   
   
   )

@@ -16,7 +16,7 @@ const Crausaldata = () => {
     document.getElementById("products").scrollIntoView({ behavior: "smooth" });
   };
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     fade: true,
     speed: 200,
@@ -53,9 +53,12 @@ const Crausaldata = () => {
   };
   return (
     <>
+    
+    <div  >
       <Slider {...settings}>
+        
       {data.map((item, index) => (
-          <div key={index}  style={{background:`url(${item.bg})`}}>
+          <div key={index}  style={{background:`url(${item.bg})` ,border:"2px solid yellow"}}>
             <div className="card_body" style={{background:`url(${item.bg})`}} >
             <div className="card_data">
               <div className="card_info">
@@ -75,6 +78,8 @@ const Crausaldata = () => {
         ))}
        
       </Slider>
+      </div>
+     
       </>
 
     
