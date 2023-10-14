@@ -16,7 +16,7 @@ const HomePage = () => {
       try {
         
         const response = await axios.get(
-          "/api/v1/getItems"
+          "http://localhost:8080/api/v1/getItems"
         );
         setInfo(response.data.items);
       } catch (error) {
@@ -58,7 +58,7 @@ const HomePage = () => {
             {leftColumn.map((item) => (
               <div className="hm_data" key={item.id}>
                 <img
-                  src={`/api/v1/get-photo/${item._id}`}
+                  src={`http://localhost:8080/api/v1/get-photo/${item._id}`}
                   className="card-img-top"
                   alt={item.name}
                   
@@ -78,7 +78,7 @@ const HomePage = () => {
             {rightColumn.map((item) => (
               <div className="hm_data row" key={item.id}>
                 <img
-                  src={`/get-photo/${item._id}`}
+                  src={`http://localhost:8080/api/v1/get-photo/${item._id}`}
                   className="card-img-top"
                   alt={item.name}
                 />
