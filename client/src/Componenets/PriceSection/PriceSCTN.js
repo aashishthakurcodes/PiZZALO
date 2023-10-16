@@ -10,7 +10,7 @@ const PriceSCTN = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/api/v1/getItems");
+        const response = await axios.get("/api/v1/getItems");
         setInfo(response.data.items);
         setLoading(false); // Set loading to false once data is fetched
       } catch (error) {
@@ -42,7 +42,7 @@ const PriceSCTN = () => {
               {info.map((item) => (
                 <div className="cont_dt" key={item.id}>
                   <img
-                    src={`http://localhost:8080/api/v1/get-photo/${item._id}`}
+                    src={`/api/v1/get-photo/${item._id}`}
                     className="card-img-top"
                     alt={item.name}
                   />

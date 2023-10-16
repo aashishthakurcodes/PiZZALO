@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from '../../Images/image_2.jpg'
+
 import './Contact.css'
 import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';

@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.020d9a06.css",
-    "main.js": "/static/js/main.0cf9791b.js",
+    "main.css": "/static/css/main.9d4488a5.css",
+    "main.js": "/static/js/main.52965d79.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/bg_1.png": "/static/media/bg_1.202f82301219211d41ce.png",
     "static/media/bg_2.png": "/static/media/bg_2.66137331deff85934118.png",
     "static/media/bg_3.jpg": "/static/media/bg_3.e27c6c4ebcb00a1dfc3e.jpg",
     "static/media/bg_1.jpg": "/static/media/bg_1.8134fb277a789ac36145.jpg",
     "static/media/pngtree-modern-kitchen-food-box-italian-pizza-png-image_6651521.png": "/static/media/pngtree-modern-kitchen-food-box-italian-pizza-png-image_6651521.e59709487d5c19db1138.png",
-    "static/media/image_2.jpg": "/static/media/image_2.4b79dffbcda2bca1fa93.jpg",
     "static/media/bg_2.jpg": "/static/media/bg_2.c872eeacf4c2feb226cc.jpg",
     "static/media/kGZag9os6n.gif": "/static/media/kGZag9os6n.25803d72e88518c3c574.gif",
     "static/media/bg_4.jpg": "/static/media/bg_4.1016007dcbe4031ed5ad.jpg",
@@ -35,12 +34,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.020d9a06.css.map": "/static/css/main.020d9a06.css.map",
-    "main.0cf9791b.js.map": "/static/js/main.0cf9791b.js.map",
+    "main.9d4488a5.css.map": "/static/css/main.9d4488a5.css.map",
+    "main.52965d79.js.map": "/static/js/main.52965d79.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.020d9a06.css",
-    "static/js/main.0cf9791b.js"
+    "static/css/main.9d4488a5.css",
+    "static/js/main.52965d79.js"
   ]
 }
