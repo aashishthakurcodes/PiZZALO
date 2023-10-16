@@ -39,20 +39,21 @@
   text-align: center;
 }
 .card {
-  border: 2px solid red;
-  border-radius: 20px;
+  border: 2px solid black;
+  /* border-radius: 20px; */
   padding: 5px;
-  background: #000;
+  margin-top: 10px;
+  /* background: #000; */
 }
 .crd_img {
   height: 250px;
   border: 2px solid rgb(254, 255, 254);
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .crd_img img {
   width: 100%;
   height: 100%;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .card-title {
   font-family: "inter";
@@ -67,7 +68,7 @@
   text-align: center;
   background: rgba(0, 0, 0, 0.9);
   color: #ffff;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   padding-bottom: 5px;
 }
 .rmvbtn:hover {

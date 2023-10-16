@@ -33,7 +33,7 @@ const Cart = () => {
             >
               <div className="crd_img">
               <img
-                src={`http://localhost:8080/api/v1/get-photo/${item._id}`}
+                src={`/api/v1/get-photo/${item._id}`}
                 onError={(e) => {
                   e.target.onerror = null; 
                   e.target.src = item.image; 
