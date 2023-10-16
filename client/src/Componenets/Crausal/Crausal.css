@@ -140,8 +140,8 @@
  
   @media screen and (min-width:300px) and (max-width:600px) {
     .card_body{
-      /* border: 3px solid greenyellow; */
-      height: 550px;
+      border: 3px solid greenyellow;
+      height: 600px;
       width: 100%;
      
     }

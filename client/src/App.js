@@ -18,6 +18,7 @@ import Footer from "./Componenets/Footer/Footer";
 
 
 
+
 function App() {
   
   return (
@@ -38,6 +39,7 @@ function App() {
                   <PriceSCTN />
                   <MoreInfo />
                   <Collection />
+                
                   <Contactus />
                   <Footer/>
                 </Layout>
