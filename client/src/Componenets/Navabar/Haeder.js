@@ -102,7 +102,7 @@ const Haeder = () => {
                   </li>
 
                   <li className="nav-tab" onClick={handleCartClick}>
-                    Cart{items.length}
+                    Cart({items.length})
                   </li>
                   <li className="nav-tab" onClick={handleAbout}>
                     About
